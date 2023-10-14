@@ -66,14 +66,14 @@ img {
 
 .logo {
   display: inline-block;
-  border-radius: 50%;
+  border-radius: 2px;
 }
 
 .header-title {
   /* background-color: #FFFFFF; */
-
-  font-size: 42px;
-  color: rgb(29, 76, 164);
+  font-size: 36px;
+  color: rgb(33, 33, 30);
+  text-shadow: rgb(170, 170, 29) 1px 1px;
 }
 
 .header-image {

@@ -21,6 +21,8 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+  max-width: 320px;
+  min-width: 1158px;
 }
 
 img {
@@ -28,8 +30,8 @@ img {
 }
 
 .container {
-  max-width: 1128px;
-  padding: 0 15px;
+  /* max-width: 1128px;
+  padding: 0 15px; */
   margin: 0 auto;
 }
 
@@ -44,23 +46,38 @@ img {
 }
 
 /*! HEADER */
-.resume-menu {
+.header {
+  max-width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  padding-top: 30px;
+  background-color: #f2f6f5;
+}
+
+.header-menu {
   display: block;
 }
 
-.resume-text {
-  font-weight: 900;
+.header-image_logo {
+  margin-bottom: 16px;
 }
 
-.header,
+.resume-text {
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+/* .header, */
 .main {
   background-color: #ffffff;
 }
 
 .header-menu {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  padding: 32px 0;
+  padding: 32px 0; */
   /* gap: 18px; */
 }
 
@@ -71,17 +88,16 @@ img {
 
 .header-title {
   /* background-color: #FFFFFF; */
-  font-size: 36px;
-  color: rgb(33, 33, 30);
-  text-shadow: rgb(170, 170, 29) 1px 1px;
+  font-size: 20px;
+  color: rgb(47, 77, 57);
 }
 
 .header-image {
-  display: flex;
+  /* display: flex; */
   min-width: 50vh;
   border: 1px solid rgb(29, 76, 164);
   border-radius: 8px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .header-menu-dsc {
@@ -111,6 +127,7 @@ img {
 
 /* ! MAIN */
 .main-skills-menu {
+  max-width: 320px;
   display: flex;
   margin-top: 24px;
   padding: 20px 0;
@@ -135,6 +152,10 @@ img {
 
 .contacts-item {
   margin-top: 16px;
+}
+
+.work-section {
+  max-width: 320px;
 }
 
 .skills-list {
@@ -175,6 +196,10 @@ img {
 }
 
 /* ! FOOTER */
+.footer {
+  max-width: 320px;
+}
+
 .study-container {
   /* background-color: rgb(214, 208, 208);
     border-radius: 8px; */
